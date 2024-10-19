@@ -5,7 +5,8 @@
 * 4 - pip install -r requirements.txt
 * 5 - python manage.py runserver
 
-* pip install pillow
+* pip install pillow   < obsługa obrazów >
+* pip install whitenoise < przy produkcji >
 
 # Django Steps
 * django-admin startproject devsearch
@@ -14,3 +15,5 @@
 * python manage.py migrate
 * python manage.py createsuperuser
 * python manage.py makemigrations
+
+* python manage.py collectstatic   < przygotowanie plików static do produkcji >
