@@ -5,6 +5,8 @@
 * 4 - pip install -r requirements.txt
 * 5 - python manage.py runserver
 
+* pip install pillow
+
 # Django Steps
 * django-admin startproject devsearch
 * python manage.py startapp projects
