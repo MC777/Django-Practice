@@ -9,4 +9,4 @@ def getRoutes(request):
         {'GET':'api/users/token'},
         {'GET':'api/users/token/refresh'},
     ]
-    return JsonResponse(routes)
+    return JsonResponse(routes, safe=False)
