@@ -18,3 +18,9 @@
 * python manage.py startapp users
 
 * python manage.py collectstatic   < przygotowanie plików static do produkcji >
+
+# Django REST Framework
+
+* pip install djangorestframework
+* pip install markdown       # Markdown support for the browsable API.
+* pip install django-filter  # Filtering support
