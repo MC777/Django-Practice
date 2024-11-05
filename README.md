@@ -28,3 +28,6 @@
 # Django web tokens
 
 * pip install djangorestframework-simplejwt
+
+# CORS
+* pip install django-cors-headers
