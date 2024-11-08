@@ -12,7 +12,8 @@ if (token) {
 logoutBtn.addEventListener("click", (e) => {
   e.preventDefault();
   localStorage.removeItem("token");
-  window.location = "file:///C:/Users/Dennis%20Ivy/Desktop/frontend/login.html";
+  window.location =
+    "file:///C:/Users/Admin/Desktop/PYTHON/Python Django Denis Ivy Udemy/Django-Practice/frontend/login.html";
 });
 
 let projectsUrl = "http://127.0.0.1:8000/api/projects/";
