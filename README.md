@@ -31,3 +31,6 @@
 
 # CORS
 * pip install django-cors-headers
+
+# Postgresql
+* pip install psycopg2
