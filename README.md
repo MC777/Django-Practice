@@ -34,3 +34,7 @@
 
 # Postgresql
 * pip install psycopg2
+
+# Other
+* pip install python-decouple
+
