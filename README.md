@@ -38,3 +38,6 @@
 # Other
 * pip install python-decouple
 
+# Deploy
+* pip install django-storages # TODO: connect to S3 bucket 1
+* pip install boto3 # TODO: connect to S3 bucket 1

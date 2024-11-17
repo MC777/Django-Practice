@@ -45,6 +45,7 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'corsheaders',
+    # 'storages' # TODO: connect to S3 bucket 1
 ]
 
 REST_FRAMEWORK = {
@@ -173,3 +174,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# DEFAULT_FILE_STORAGE = 'storages.bakends.s3boto3.S3BotoStorage' # TODO: connect to S3 bucket 2
+# AWS_QUERYSTRING_AUTH = False # usuwa z linka zdjęcia ścieżkę #TODO: connect to S3 bucket 5
+# AWS_ACCESS_KEY_ID = 'xxxxx' # TODO: connect to S3 bucket 3
+# AWS_SECRET_ACCESS_KEY = 'xxxxx' # TODO: connect to S3 bucket 3
+# AWS_STORAGE_BUCKET_NAME = 'devsearch-bucket' # TODO: connect to S3 bucket 4
+# AWS_S3_FILE_OVERWRITE = False # nie nadpisuje w bucket plikó z tą samą nazwą # TODO: connect to S3 bucket 6
