@@ -28,7 +28,7 @@ SECRET_KEY = "django-insecure-9+pzr9kn-e0g*j28&w3aw_vo@1*&+^=n#qneeq%w#7nbk0%$%k
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
-
+# TODO: deploy - add allowed_host: ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'devsearch.herokuapp.com', 'newdomain.com']
 
 # Application definition
 
@@ -181,3 +181,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # AWS_SECRET_ACCESS_KEY = 'xxxxx' # TODO: connect to S3 bucket 3
 # AWS_STORAGE_BUCKET_NAME = 'devsearch-bucket' # TODO: connect to S3 bucket 4
 # AWS_S3_FILE_OVERWRITE = False # nie nadpisuje w bucket plikó z tą samą nazwą # TODO: connect to S3 bucket 6
+
+# TODO: deploy - set debug to false if we are live
+# if os.getcwd() == '/app':
+#     DEBUG = False
