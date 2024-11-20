@@ -150,6 +150,8 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = config('EMAIL_HOST_USER')
 EMIAL_HOST_PASSWORD = config('EMIAL_HOST_PASSWORD')
+# TODO: deploy - this could be hiden via variable
+# EMAIL_HOST_USER = os.environ.get('DB_HOST_USER')
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
